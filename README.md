@@ -51,6 +51,14 @@ Feel free to change:
 - add as more ** *.png ** files under your * 'img/my-icons/' * folder
 
 
+Todo
+----
+
+- add coffeescript support
+- make sprites.scss load on 'my-icons' files' change
+- add autoprefixer support
+- 
+
 License
 ----
 
