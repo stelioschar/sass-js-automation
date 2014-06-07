@@ -57,7 +57,7 @@ Todo
 - add coffeescript support
 - make sprites.scss load on 'my-icons' files' change
 - add autoprefixer support
-- 
+
 
 License
 ----
