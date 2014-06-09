@@ -5,6 +5,7 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
 
+
     compass: {
       dev: {
         options: {
@@ -30,13 +31,13 @@ module.exports = function(grunt) {
     watch: {
       sass: {
         files: ['sass/**/*.scss'],
-        tasks: ['compass:dev']
+        tasks: ['compass:dev', 'notify:watch']
       },
       /* watch and see if our javascript files change, or new packages are installed */
       js: {
         files: ['js/**/*.js', '!js/scripts.min.js'],//['js/main.js'],//, 'js/**/*.js'],
-        tasks: ['uglify']
-      },
+        tasks: ['uglify', 'notify:uglify']
+      }
       /* watch our files for change, reload */
       /*livereload: {
         files: ['css/*.css', 'img/*', 'js/{main.min.js, plugins.min.js}'],
@@ -44,10 +45,30 @@ module.exports = function(grunt) {
           livereload: true
         }
       },*/
-    }
+    },
+
+    notify: {
+      compass: {
+        options: {
+          enabled: true,  
+          title: 'Task Complete',  // optional
+          message: 'Compass finished', //required
+        }
+      },
+      uglify: {
+        options: {
+          enabled: true,  
+          title: 'Task Complete',  // optional
+          message: 'JS Compiled', //required
+        }
+      },
+    },
 
   });
 
-  grunt.registerTask('default', 'watch');
+  grunt.registerTask('default', [
+    'watch',
+  ]);
+
 
 }
