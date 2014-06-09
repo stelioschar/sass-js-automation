@@ -7,7 +7,9 @@
     "grunt-contrib-watch": "~0.4.3",
     "grunt-contrib-uglify": "~0.4.0",
     "matchdep": "~0.3.0",
-    "grunt-notify": "~0.3.0"
+    "grunt-notify": "~0.3.0",
+    "load-grunt-config": "~0.9.2",
+    "load-grunt-tasks": "~0.4.0"
   },
   "main": "Gruntfile.js",
   "repository": {
