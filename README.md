@@ -46,9 +46,9 @@ grunt
 ```
 
 Feel free to change: 
-- the ** *.scss ** files under the ** scss ** folder, compiled to ** css/main.css ** file
-- the ** *.js ** files under the ** js ** folder, compiled to ** js/scripts.min.js ** file
-- add as more ** *.png ** files under your * 'img/my-icons/' * folder
+- the **.scss** files under the **scss** folder, compiled to **css/main.css** file
+- the **.js** files under the **js** folder, compiled to **js/scripts.min.js** file
+- add as more **.png** files under your * 'img/my-icons/' * folder
 
 
 Todo
