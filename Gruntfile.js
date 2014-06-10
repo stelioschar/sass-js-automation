@@ -31,7 +31,7 @@ module.exports = function(grunt) {
     watch: {
       sass: {
         files: ['sass/**/*.scss'],
-        tasks: ['compass:dev', 'notify:watch']
+        tasks: ['compass:dev', 'notify:compass']
       },
       /* watch and see if our javascript files change, or new packages are installed */
       js: {
