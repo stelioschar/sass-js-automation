@@ -1,5 +1,11 @@
 module.exports = {
-	dev: {
+	sprites: {
+		options: {
+			config: 'config.rb',
+			force: true
+		}
+	},
+	sass: {
 		options: {
 			sourcemap: true,
 			config: 'config.rb',
