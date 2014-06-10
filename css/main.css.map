@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "8IAmFQ,4BAAsB,CAlE5B,mBAAmB,CAAE,GACJ,CAiEX,aAAsB,CAlE5B,mBAAmB,CAAE,QACJ,CClBnB,IAAI,CACH,gBAAgB,CAAE,KAAK,CCDxB,MAAM,CACL,OAAO,CAAC,IAAI",
-"sources": ["../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/utilities/sprites/_base.scss","../sass/_header.scss","../sass/_footer.scss"],
-"names": [],
-"file": "main.css"
-}
