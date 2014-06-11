@@ -13,6 +13,13 @@ module.exports = {
       message: 'Sprites has been generated through Compass', //required
     }
   },
+  coffee:{
+    options: {
+      enabled: true,  
+      title: 'Task Complete',  // optional
+      message: 'Coffeescript Compiled', //required
+    }
+  },
   uglify: {
     options: {
       enabled: true,  
