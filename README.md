@@ -1,4 +1,4 @@
-sass-js-automation
+sass-js-automation v0.1.1
 ==================
 
 
@@ -39,24 +39,23 @@ npm install
 Usage
 ----
 
-Just run
+For development process run:
 
 ```sh
 grunt
 ```
 
+For production file generation run:
+
+```sh
+grunt build
+```
+
 Feel free to change: 
 - the **.scss** files under the **scss** folder, compiled to **css/main.css** file
-- the **.coffee** files under the **coffeescript** folder, compiled to **js/coffee-main.js** file
+- the **.coffee** files under the **coffeescript** folder, compiled to **js/main.js** file
 - the **.js** files under the **js** folder, compiled to **js/scripts.min.js** file
 - add as more **.png** files under your * 'img/my-icons/' * folder
-
-
-Todo
-----
-
-- make sprites.scss load on 'my-icons' files' change
-- add autoprefixer support
 
 
 License
