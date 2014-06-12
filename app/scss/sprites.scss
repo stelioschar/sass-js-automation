@@ -1,0 +1,4 @@
+@import "compass/utilities/sprites";
+$sprites-layout:smart;
+@import "sprites/*.png";
+@include all-sprites-sprites;
