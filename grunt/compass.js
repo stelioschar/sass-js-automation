@@ -7,7 +7,7 @@ module.exports = {
 	},
 	sass: {
 		options: {
-			sourcemap: true,
+			sourcemap: false,
 			config: 'config.rb',
 			force: true
 		}

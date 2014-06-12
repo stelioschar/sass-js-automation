@@ -2,10 +2,10 @@ module.exports = {
   compile: {
   	options: {
       sourceMap: true,
-      sourceMapDir: 'js/coffeescript.map'
+      sourceMapDir: 'app/scripts/coffeescript.map'
     },
     files: {
-      'js/coffee-main.js': ['coffeescript/*.coffee']
+      'app/scripts/coffee-main.js': ['app/coffeescript/*.coffee']
     }
   }
 }

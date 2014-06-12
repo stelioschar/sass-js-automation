@@ -1,11 +1,12 @@
 module.exports = {
 	dev: {
 		options: {
+			preserveComments : false,
 			sourceMap: true,
-			sourceMapName: 'js/sourcemap.map'
+			sourceMapName: '/sourcemap.map'
 		},
 		files: {
-			'js/scripts.min.js': ['js/**/*.js', '!js/scripts.min.js']
+			'dist/scripts/scripts.min.js': ['app/scripts/**/*.js', '!app/scripts/scripts.min.js']
 		}
 	}
 }
