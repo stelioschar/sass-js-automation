@@ -47,6 +47,7 @@ grunt
 
 Feel free to change: 
 - the **.scss** files under the **scss** folder, compiled to **css/main.css** file
+- the **.coffee** files under the **coffeescript** folder, compiled to **js/coffee-main.js** file
 - the **.js** files under the **js** folder, compiled to **js/scripts.min.js** file
 - add as more **.png** files under your * 'img/my-icons/' * folder
 
@@ -54,7 +55,6 @@ Feel free to change:
 Todo
 ----
 
-- add coffeescript support
 - make sprites.scss load on 'my-icons' files' change
 - add autoprefixer support
 

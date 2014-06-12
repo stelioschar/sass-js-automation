@@ -1,4 +1,5 @@
 default:
   - 'newer:compass'
+  - 'newer:coffee'
   - 'newer:uglify'
   - 'watch'

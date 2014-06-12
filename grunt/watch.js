@@ -7,6 +7,10 @@ module.exports = {
     files: ['sass/**/*.scss'],
     tasks: ['compass:sass', 'notify:sass']
   },
+  coffeescript: {
+    files: ['coffeescript/**/*.coffee'],
+    tasks: ['coffee', 'notify:coffee']
+  },
   /* watch and see if our javascript files change, or new packages are installed */
   js: {
     files: ['js/**/*.js', '!js/scripts.min.js'],//['js/main.js'],//, 'js/**/*.js'],
