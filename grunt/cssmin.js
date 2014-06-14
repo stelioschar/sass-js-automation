@@ -1,5 +1,5 @@
 module.exports = {
-	minify: {
+	build: {
 		expand: true,
 		cwd: 'app/styles/',
 		src: ['*.css', '!*.min.css'],

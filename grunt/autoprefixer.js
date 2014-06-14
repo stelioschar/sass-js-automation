@@ -1,7 +1,7 @@
 module.exports = {
 	dev: {
       options: {
-        // Target-specific options go here.
+        map: true
       },
       src: 'app/styles/main.css'
     }
