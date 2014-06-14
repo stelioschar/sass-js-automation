@@ -1,19 +1,18 @@
 module.exports = {
   sprites: {
-    files: ['img/my-icons/*.png'],
+    files: ['app/images/sprites/*.png'],
     tasks: ['compass:sprites', 'notify:compass']
   },
   compass: {
-    files: ['sass/**/*.scss'],
+    files: ['app/scss/**/*.scss'],
     tasks: ['compass:sass', 'notify:sass']
   },
-  coffeescript: {
-    files: ['coffeescript/**/*.coffee'],
-    tasks: ['coffee', 'notify:coffee']
+  autoprefixer: {
+    files: ['app/styles/**/*.css'],
+    tasks: ['autoprefixer', 'notify:autoprefixer']
   },
-  /* watch and see if our javascript files change, or new packages are installed */
-  js: {
-    files: ['js/**/*.js', '!js/scripts.min.js'],//['js/main.js'],//, 'js/**/*.js'],
-    tasks: ['uglify', 'notify:uglify']
-  }   
+  coffee: {
+    files: ['app/coffeescript/**/*.coffee'],
+    tasks: ['coffee', 'notify:coffee']
+  }  
 }

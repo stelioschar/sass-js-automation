@@ -13,6 +13,13 @@ module.exports = {
       message: 'Sprites has been generated through Compass', //required
     }
   },
+  autoprefixer: {
+    options: {
+      enabled: true,  
+      title: 'Task Complete',  // optional
+      message: 'Autoprefixed css file', //required
+    }
+  },
   coffee:{
     options: {
       enabled: true,  

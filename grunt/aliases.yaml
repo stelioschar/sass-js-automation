@@ -1,5 +1,11 @@
 default:
   - 'newer:compass'
-  - 'newer:coffee'
-  - 'newer:uglify'
+  - 'newer:autoprefixer'
+  - 'coffee'
   - 'watch'
+
+build:
+  - 'clean:build'
+  - 'copy:build'
+  - 'cssmin:build'
+  - 'uglify'
